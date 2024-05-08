@@ -1,0 +1,16 @@
+  248  touch main_test.txt
+  249  git add .
+  250  git commit -m "added new file"
+  251  git checkout -b develop 
+  252  touch develop_test.txt
+  253  git add .
+  254  git commit -m "added new file"
+  255  nano develop_test.txt 
+  256  git add develop_test.txt
+  257  git commit -m "added hello"
+  258  git status
+  259  git add .
+  260  git commit -m "just checking"
+  261  git checkout main
+  262  git merge develop 
+  263  git log 
